@@ -1,5 +1,7 @@
 https://flet.dev/docs/
 
+https://github.com/flet-dev/flet
+
 Introduction
 What is Flet
 Flet is a framework that allows building interactive multi-user web, desktop and mobile applications in your favorite language without prior experience in frontend development.
@@ -7,3 +9,8 @@ Flet is a framework that allows building interactive multi-user web, desktop and
 You build a UI for your program with Flet controls which are based on Flutter by Google. Flet does not just "wrap" Flutter widgets, but adds its own "opinion" by combining smaller widgets, hiding complexities, implementing UI best-practices, applying reasonable defaults - all to ensure your apps look cool and professional without extra efforts.
 
 Flet app example
+
+Tutorials
+
+Python - To-Do app
+Python - Calculator app

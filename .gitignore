@@ -30,3 +30,27 @@
 *.exe
 *.out
 *.app
+
+# 目前计划开发
+Clang/
+Clang++/
+Python/*
+Ts/
+
+# 开发中
+!Python/GUI/
+
+#表示注释，如下：
+# !表示不忽略指定的文件，如下：
+# *.log
+# day_1?.txt
+# hello[0-9].txt
+# *表示匹配任意字符；
+# ?表示匹配一个字符；
+# []表示匹配中括号内的单个字符：
+# 可以使用-来表示连贯的字符，比如0-9，a-z，A-Z等，[0-9]表示匹配从0到9的单个字符。
+# 可以使用^来表示除外，比如[^0-9]表示除0到9之外的单个字符。
+
+# ignore scaffolds folder, but don't ignore draft.md under scaffolds folder.
+# scaffolds/*
+# !scaffolds/draft.md
