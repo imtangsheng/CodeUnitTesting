@@ -4,10 +4,12 @@ https://github.com/flet-dev/flet
 
 
 - [Introduction](#introduction)
+  - [app example](#flet-app-example)
+  - [Controls reference](#controls-reference)
 - [Packaging a desktop app​](#packaging-a-desktop-app​)
 - [Deploying a web app](#deploying-a-web-app​)
-    - [flyio](#flyio​)
-    - [replit](#replit​)
+  - [flyio](#flyio​)
+  - [replit](#replit​)
 
 ## Introduction
 
@@ -16,13 +18,29 @@ Flet is a framework that allows building interactive multi-user web, desktop and
 
 You build a UI for your program with Flet controls which are based on Flutter by Google. Flet does not just "wrap" Flutter widgets, but adds its own "opinion" by combining smaller widgets, hiding complexities, implementing UI best-practices, applying reasonable defaults - all to ensure your apps look cool and professional without extra efforts.
 
-Flet app example
+### Flet app example
 
 Tutorials
 
 Python - To-Do app
 Python - Calculator app
 
+### Controls reference
+
+https://flet.dev/docs/controls
+
+Flet UI is built of controls. Controls are organized into hierarchy, or a tree, where each control has a parent (except Page) and container controls like Column, Dropdown can contain child controls, for example:
+
+```
+Page
+ ├─ TextField
+ ├─ Dropdown
+ │   ├─ Option
+ │   └─ Option
+ └─ Row
+     ├─ ElevatedButton
+     └─ ElevatedButton
+```
 
 ## Packaging a desktop app​
 
